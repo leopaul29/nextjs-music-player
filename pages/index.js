@@ -1,5 +1,5 @@
 import Head from "next/head";
-import AudioPlayer from "../components/AudioPlayer";
+import PlayControls from "../components/PlayControls";
 import BikeGuy from "../components/BikeGuy";
 import Playlist from "../components/Playlist";
 import styles from "../styles/Home.module.css";
@@ -27,7 +27,7 @@ export default function Home() {
         />
         <BikeGuy />
         <Playlist />
-        <AudioPlayer />
+        <PlayControls />
       </main>
     </div>
   );

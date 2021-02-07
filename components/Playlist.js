@@ -2,7 +2,7 @@ export default function Playlist() {
   return (
     <section className="selectionPlaylist">
       <div className="selectionPlaylist__artwork">
-        <img className="cover" src="images/cover.jpg" alt="artwork_cover" />
+        <img className="artwork" src="images/cover.jpg" alt="artwork_cover" />
       </div>
       <div className="selectionPlaylist__trackList">
         <ul id="trackList">
