@@ -1,0 +1,38 @@
+.section__audioPlayer {
+  background-color: #f2f2f2;
+  border-top: 1px solid #cecece;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+.audioPlayer {
+  display: flex;
+  flex-direction: row;
+}
+.audio-element {
+  display: none;
+}
+#outside {
+  border: 1px solid black;
+  height: 20px;
+  background-color: silver;
+  width: 500px;
+  position: relative;
+}
+#inside {
+  width: 0px;
+  height: 100%;
+  background-color: firebrick;
+  overflow: visible;
+  color: white;
+  white-space: nowrap;
+}
+#currentTime {
+  position: absolute;
+  left: 0;
+}
+#songDuration {
+  position: absolute;
+  right: 0;
+}
